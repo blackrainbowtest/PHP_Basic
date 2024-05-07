@@ -1,6 +1,6 @@
 # PHP_Basic
 
-<details><summary>### Lesson 1:</summary>
+<details><summary> ### Lesson 1: </summary>
 
 For local web development, I utilize the XAMPP software. To configure my local server, I made adjustments to the Apache configuration files.
 
@@ -27,7 +27,10 @@ For local web development, I utilize the XAMPP software. To configure my local s
 
 </details>
 
-<details><summary>### Lesson 2:</summary>
-`<?= ?>` Используется этот вариант если делается одно выражение.
-`mt_rand(0,1)` Библиотека рандома
+<details><summary> ### Lesson 2: </summary>
+`<?= ?>` This option is used if one expression is being made.
+`mt_rand(0,1)` Random library
+Comments in php
+`//` , `#` - one-line comments
+`/* */` - multi-line comments
 </details>
