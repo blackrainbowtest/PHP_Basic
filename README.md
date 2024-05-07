@@ -1,5 +1,7 @@
 # PHP_Basic
 
+<details><summary>### Lesson 1:</summary>
+
 For local web development, I utilize the XAMPP software. To configure my local server, I made adjustments to the Apache configuration files.
 
 1. **Modifying the `httpd-vhosts.conf` file of Apache:**
@@ -22,3 +24,10 @@ For local web development, I utilize the XAMPP software. To configure my local s
 
 3. **PHP Block:**
    To write PHP code, it is necessary to begin the block with the `<?php` tag and close it with `?>` at the end if the file contains code other than PHP. The echo command is used to output data to the terminal.
+
+</details>
+
+<details><summary>### Lesson 2:</summary>
+`<?= ?>` Используется этот вариант если делается одно выражение.
+`mt_rand(0,1)` Библиотека рандома
+</details>
