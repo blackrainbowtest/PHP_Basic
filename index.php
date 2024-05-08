@@ -1,30 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+require_once './second.php';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= "Новая страница"; ?></title>
-</head>
+use MyLibrary\MyClass;
 
-<body>
-    <?php
-    echo "Date now";
-    echo date(DATE_RSS);
-    ?>
-    <br>
-    <?php
-    if (mt_rand(0, 1)) {
-    ?>
-        <div style="color: blue">Blue text</div>
-    <?php
-    } else {
-    ?>
-        <div style="color: red">Red text</div>
-    <?php
-    }
-    ?>
+$myObject = new MyClass();
 
-</body>
+$myObject->x = 1;
+$myObject->y = 1;
 
-</html>
+echo $myObject->x . ' ' . $myObject->y;
+
+$num = mt_rand(1,10);
+$name = "VALUE($num)";
+// define new constant
+define($name, $num);
+// echo new constant with random name
+echo constant($name);
