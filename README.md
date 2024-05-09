@@ -69,3 +69,15 @@ Examples of using:
 
 These checks are useful to ensure that the program operates correctly and that constants are used in the appropriate places.
 </details>
+
+<details>
+<summary>
+
+### Lesson 4:</summary>
+
+В php конкатенация осуществляется символом `.` например: `echo "text" . $num`
+
+Поразрядные операторы php
+
+
+</details>
