@@ -17,10 +17,11 @@
         <label for="">User Name</label>
         <input type="text" name="uname" placeholder="User Name"><br>
 
-        <label for="">User Name</label>
+        <label for="">Password</label>
         <input type="password" name="password" placeholder="Password"><br>
 
         <button type="submit">Login</button>
+        <a href="signup.php" class="ca">Create an account</a>
     </form>
 </body>
 
